@@ -4,3 +4,5 @@
 AppName=Shake PHP Dependency Manager
 AppCopyright=Copyright (C) 2018 Shake PHP.
 AppVersion=1.0.0-stable
+Compression=lzma
+SolidCompression=yes

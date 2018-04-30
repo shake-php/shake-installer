@@ -1,4 +1,4 @@
-; This file is the default Shake PHP installer config.
+; Shake PHP Installer
 
 [Setup]
 AppName=Shake PHP Dependency Manager
@@ -8,3 +8,15 @@ Compression=lzma
 SolidCompression=yes
 WizardImageFile=wizshakereg.bmp
 WizardSmallImageFile=wizshakesmall.bmp
+DisableProgramGroupPage=yes
+DisableWelcomePage=yes
+MinVersion=5.1
+PrivilegesRequired=none
+AllowCancelDuringInstall=false
+CloseApplications=no
+SetupLogging=yes
+VersionInfoVersion={#SetupVersion}
+VersionInfoProductName={#AppDescription}
+
+[Dirs]
+Name: {code:GetBinDir}; Permissions: users-modify; Check: CheckPermisions;
